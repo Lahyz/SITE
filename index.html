@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TZORI | Tecnologia & Cibersegurança</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="circuit-bg"></div>
+
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="imagens/logo.webp" alt="TZORI Logo">
+                <span>TZORI</span>
+            </div>
+
+            <ul class="navlinks">
+
+                <li><a href="#home" data-i18n="nav_home">Home</a></li>
+                <li><a href="#infra" data-i18n="nav_infra">Infraestrutura</a></li>
+                <li><a href="#digital" data-i18n="nav_digital">Desenvolvimento</a></li>
+                <li><a href="#marketing" data-i18n="nav_growth">Growth & Cyber</a></li>
+                <li><a href="#contato" class="btn-cta" data-i18n="nav_contato">Contato</a></li>
+                <div class="lang-selector">
+                <button onclick="setLanguage('pt')" class="lang-btn">PT</button>
+                <button onclick="setLanguage('es')" class="lang-btn">ES</button>
+            </div>
+            </ul>
+
+            
+
+        </nav>
+    </header>
+
+    <main class="container">
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="hero_h1">Soluções inteligentes para um mundo <span class="highlight">conectado</span>.</h1>
+            <p class="hero-bio" data-i18n="hero_bio">
+                Na TZORI, projetamos o futuro da segurança e conectividade. Combinamos engenharia de infraestrutura física 
+                com inteligência digital avançada para proteger seu patrimônio e escalar seu negócio. Do cabeamento 
+                estruturado ao código de alta performance, entregamos soluções robustas para um mundo sem fronteiras.
+            </p>
+        </div>
+    </section>
+
+    <section id="infra" class="nicho-section">
+        <div class="nicho-grid">
+            <div class="nicho-info">
+                <span class="tag" data-i18n="tag_infra">Infraestrutura</span>
+                <h2 data-i18n="infra_h2">Segurança e Conectividade Física</h2>
+                <p data-i18n="infra_p">Protegemos seu patrimônio com o que há de mais moderno em hardware e redes.</p>
+                <ul class="nicho-list">
+                    <li data-i18n="infra_li1">✔ Monitoramento por câmeras com acesso remoto.</li>
+                    <li data-i18n="infra_li2">✔ Projetos de Wi-Fi Mesh para cobertura total.</li>
+                    <li data-i18n="infra_li3">✔ Fechaduras biométricas e eletrônicas.</li>
+                </ul>
+                <a href="https://wa.me/seunumerowhatsapp" class="btn-nicho" data-i18n="btn_orcamento">Solicitar Orçamento</a>
+            </div>
+            <div class="nicho-galeria">
+                <div class="slider-wrapper" id="galeria-infra">
+                    <div class="slides">
+                        <img src="assets/camera.jpg" class="slide active">
+                        <img src="assets/wifi.jpg" class="slide">
+                    </div>
+                    <div class="slider-controls">
+                        <button onclick="changeSlide('galeria-infra', -1)">&#10094;</button>
+                        <button onclick="changeSlide('galeria-infra', 1)">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="digital" class="nicho-section">
+        <div class="nicho-grid invert">
+            <div class="nicho-info">
+                <span class="tag" data-i18n="tag_digital">Desenvolvimento</span>
+                <h2 data-i18n="digital_h2">Sites e Aplicativos Mobile</h2>
+                <p data-i18n="digital_p">Construímos sua presença digital com foco em performance, design e conversão.</p>
+                <ul class="nicho-list">
+                    <li data-i18n="digital_li1">✔ Landing Pages e Sites Institucionais.</li>
+                    <li data-i18n="digital_li2">✔ Aplicativos customizados (iOS e Android).</li>
+                    <li data-i18n="digital_li3">✔ Design UI/UX moderno e responsivo.</li>
+                </ul>
+                <a href="https://wa.me/seunumerowhatsapp" class="btn-nicho" data-i18n="btn_desenvolver">Desenvolver Projeto</a>
+            </div>
+            <div class="nicho-galeria">
+                <div class="slider-wrapper" id="galeria-digital">
+                    <div class="slides">
+                        <img src="assets/site.jpg" class="slide active">
+                        <img src="assets/app.jpg" class="slide">
+                    </div>
+                    <div class="slider-controls">
+                        <button onclick="changeSlide('galeria-digital', -1)">&#10094;</button>
+                        <button onclick="changeSlide('galeria-digital', 1)">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="marketing" class="nicho-section">
+        <div class="nicho-grid">
+            <div class="nicho-info">
+                <span class="tag" data-i18n="tag_growth">Growth & Security</span>
+                <h2 data-i18n="growth_h2">Tráfego Pago e Cibersegurança</h2>
+                <p data-i18n="growth_p">Escalamos seu faturamento e protegemos sua operação contra ameaças digitais.</p>
+                <ul class="nicho-list">
+                    <li data-i18n="growth_li1">✔ Gestão de anúncios no Google e Meta Ads.</li>
+                    <li data-i18n="growth_li2">✔ Blindagem de contas e auditoria de sistemas.</li>
+                    <li data-i18n="growth_li3">✔ Estratégias de escala baseadas em dados.</li>
+                </ul>
+                <a href="https://wa.me/seunumerowhatsapp" class="btn-nicho" data-i18n="btn_consultoria">Consultoria Digital</a>
+            </div>
+            <div class="nicho-galeria">
+                <div class="slider-wrapper" id="galeria-growth">
+                    <div class="slides">
+                        <img src="assets/trafego.jpg" class="slide active">
+                        <img src="assets/cyber.jpg" class="slide">
+                    </div>
+                    <div class="slider-controls">
+                        <button onclick="changeSlide('galeria-growth', -1)">&#10094;</button>
+                        <button onclick="changeSlide('galeria-growth', 1)">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer id="contato">
+        <p>TZORI • <span data-i18n="footer_text">Tecnologia & Cibersegurança</span> <br> © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
