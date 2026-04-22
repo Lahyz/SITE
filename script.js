@@ -8,115 +8,160 @@ console.log(
 // 2. DICIONÁRIO DE TRADUÇÃO
 const translations = {
     pt: {
-        // Navegação
         nav_home: "Home",
-        nav_infra: "Infraestrutura",
-        nav_digital: "Sites",
-        nav_trafego: "Growth Marketing",
-        nav_cyber: "Cibersegurança",
-        nav_contact: "Contato",
-
-        // Hero
+        nav_infra: "Smart Infra",
+        nav_digital: "SEO Systems",
+        nav_trafego: "Business Growth",
+        nav_cyber: "Cyber Security",
+        btn_contato: "Fale Conosco",
         hero_bio: "<strong>Infraestrutura, sistemas e segurança digital sem margem para falhas.</strong> A <strong>TZORI</strong> projeta e implementa soluções tecnológicas completas para empresas que precisam de estabilidade, proteção e desempenho real.",
+        
+        // Especialidades
+        tag_servicos: "SOLUÇÕES",
+        title_servicos: "Especialidades TZORI",
+        desc_grid_infra: "Automação e redes Mesh.",
+        desc_grid_digital: "Sites para o topo do Google.",
+        desc_grid_trafego: "BI e Gestão de faturamento.",
+        desc_grid_cyber: "Blindagem e auditoria crítica.",
 
-        // Infraestrutura
+        // Seção Infra
         tag_infra: "INFRAESTRUTURA & REDES",
         title_infra: "Infraestrutura Tecnológica",
-        infra_p: "Projetamos redes corporativas robustas e sistemas de monitoramento que garantem operação contínua, segurança e controle total do ambiente.",
+        infra_p: "Projetamos redes corporativas robustas e sistemas de monitoramento que garantem operação contínua.",
         infra_t1: "Wi-Fi Mesh: Cobertura total sem pontos cegos.",
-        infra_t2: "Sistemas de CFTV com acesso remoto e alta definição",
-        infra_t3: "Redes estáveis, seguras e preparadas para expansão",
-        infra_resultado: "Infraestrutura tecnológica robusta, segura e preparada para o crescimento.",
+        infra_t2: "Sistemas de CFTV com acesso remoto",
+        infra_t3: "Redes estáveis e preparadas para expansão",
         btn_infra: "Diagnóstico de Infraestrutura",
 
-        // Sites
+        // Seção Digital
         tag_digital: "SITES & APLICAÇÕES",
         title_digital: "Sistemas Digitais que Geram Resultado",
-        digital_p: "Desenvolvemos sites e aplicações com foco em performance, usabilidade e conversão alinhados aos objetivos reais do seu negócio.",
-        site_t1: "<strong>Performance:</strong> Estrutura otimizada para velocidade e desempenho",
-        site_t2: "<strong>UX Design:</strong> Experiência do usuário pensada para conversão",
-        resultado_p: "Presença digital profissional que atrai, engaja e converte.",
+        digital_p: "Desenvolvemos sites com foco em performance, usabilidade e conversão.",
+        site_t1: "Performance otimizada para velocidade",
+        site_t2: "UX Design focado em conversão",
         btn_digital: "Análise de Performance Grátis",
 
-        // Tráfego (Bento)
+        // Seção Growth
         tag_trafego: "Growth Marketing",
         title_trafego: "Performance que escala",
-        traf_t1: "Dominamos os algoritmos para converter cliques em faturamento previsível através de estratégias de SEO e Paid Media.",
+        traf_t1: "Dominamos algoritmos para converter cliques em faturamento previsível.",
         btn_trafego: "Escalar meu Negócio",
         traf_stat_roas: "Média de ROAS",
         traf_stat_time: "Tempo de Resposta",
-        traf_graph_label: "Crescimento Mensal",
 
-        // Segurança
+        // Seção Cyber
         tag_cyber: "Security",
         title_cyber: "Cibersegurança",
-        cyber_t1: "<strong>Auditoria:</strong> Auditoria completa de segurança.",
-        cyber_t2: "<strong>Blindagem:</strong> Segurança total de ativos.",
-        cyber_t3: "<strong>Implementação:</strong> Medidas preventivas e corretivas para garantir a segurança contínua do ambiente digital.",
-        cyber_resultado: "Ambiente digital seguro, protegido contra ameaças e vulnerabilidades.",
+        cyber_t1: "Auditoria completa de segurança",
+        cyber_t2: "Blindagem total de ativos",
+        cyber_t3: "Medidas preventivas contra ataques",
         btn_cyber: "Blindar meu Negócio",
 
-        // Footer
+        // Por que nos contratar
+        tag_why: "POR QUE A TZORI?",
+        title_why: "Engenharia que gera autoridade e lucro",
+        why_1_title: "Infraestrutura de Elite",
+        why_1_desc: "Redes Mesh e automação blindada que eliminam quedas.",
+        why_1_ben: "Benefício: Estabilidade total.",
+        why_2_title: "Sistemas Focados em SEO",
+        why_2_desc: "Ferramentas de guerra otimizadas para o Google.",
+        why_2_ben: "Benefício: Vendas orgânicas.",
+        why_3_title: "Decisões Baseadas em Dados (BI)",
+        why_3_desc: "Gestão de tráfego que escala seu ROI com transparência.",
+        why_3_ben: "Benefício: Escala previsível.",
+        why_4_title: "Cyber Security Nativa",
+        why_4_desc: "Segurança bancária em todos os projetos digitais.",
+        why_4_ben: "Benefício: Blindagem contra ataques.",
+        
         footer_rights: "Todos os direitos reservados."
     },
     es: {
-        // Traduções correspondentes para Espanhol
         nav_home: "Inicio",
-        nav_infra: "Infraestructura",
-        nav_digital: "Sitios Web",
-        nav_trafego: "Growth Marketing",
-        nav_cyber: "Ciberseguridad",
-        nav_contact: "Contacto",
+        nav_infra: "Smart Infra",
+        nav_digital: "SEO Systems",
+        nav_trafego: "Business Growth",
+        nav_cyber: "Cyber Security",
+        btn_contato: "Contacto",
         hero_bio: "<strong>Infraestructura, sistemas y seguridad digital sin margen de error.</strong> <strong>TZORI</strong> diseña e implementa soluciones tecnológicas para empresas que exigen estabilidad y rendimiento real.",
+        
+        // Especialidades
+        tag_servicos: "SOLUCIONES",
+        title_servicos: "Especialidades TZORI",
+        desc_grid_infra: "Automatización y redes Mesh.",
+        desc_grid_digital: "Sitios para el top de Google.",
+        desc_grid_trafego: "BI y Gestión de facturación.",
+        desc_grid_cyber: "Blindaje y auditoría crítica.",
+
+        // Seção Infra
         tag_infra: "INFRAESTRUCTURA & REDES",
         title_infra: "Infraestructura Tecnológica",
-        infra_p: "Diseñamos redes corporativas robustas y sistemas de monitoreo que garantizan operación continua, seguridad y control total.",
+        infra_p: "Diseñamos redes corporativas robustas y sistemas de monitoreo que garantizan operación continua.",
         infra_t1: "Wi-Fi Mesh: Cobertura total sin puntos ciegos.",
-        infra_t2: "Sistemas de CCTV con acceso remoto y alta definición",
-        infra_t3: "Redes estables, seguras y preparadas para la expansión",
-        infra_resultado: "Infraestructura tecnológica robusta, segura y preparada para el crecimiento.",
+        infra_t2: "Sistemas de CCTV con acceso remoto",
+        infra_t3: "Redes estables y preparadas para expansión",
         btn_infra: "Diagnóstico de Infraestructura",
+
+        // Seção Digital
         tag_digital: "SITIOS & APLICACIONES",
         title_digital: "Sistemas Digitales que Generan Resultados",
-        digital_p: "Desarrollamos sitios y aplicaciones enfocados en rendimiento, usabilidad y conversión alineados a sus objetivos reales.",
-        site_t1: "<strong>Performance:</strong> Estructura optimizada para velocidad y rendimiento",
-        site_t2: "<strong>UX Design:</strong> Experiencia de usuario pensada para la conversión",
-        resultado_p: "Presencia digital profesional que atrae, involucra y convierte.",
+        digital_p: "Desarrollamos sitios enfocados en rendimiento, usabilidad y conversión.",
+        site_t1: "Rendimiento optimizado para velocidad",
+        site_t2: "UX Design enfocado en conversión",
         btn_digital: "Análisis de Rendimiento Gratis",
 
+        // Seção Growth
         tag_trafego: "Growth Marketing",
         title_trafego: "Rendimiento que escala",
-        traf_t1: "Dominamos los algoritmos para convertir clics en facturación previsible a través de estrategias de SEO y Paid Media.",
+        traf_t1: "Dominamos algoritmos para convertir clics en facturación previsible.",
         btn_trafego: "Escalar mi Negocio",
         traf_stat_roas: "Promedio de ROAS",
         traf_stat_time: "Tiempo de Respuesta",
-        traf_graph_label: "Crecimiento Mensual",
 
+        // Seção Cyber
         tag_cyber: "Security",
         title_cyber: "Ciberseguridad",
-        cyber_t1: "<strong>Auditoría:</strong> Auditoría completa de seguridad.",
-        cyber_t2: "<strong>Blindaje:</strong> Seguridad total de activos.",
-        cyber_t3: "<strong>Implementación:</strong> Medidas preventivas y correctivas para garantizar la seguridad continua del entorno digital.",
-        cyber_resultado: "Entorno digital seguro, protegido contra amenazas y vulnerabilidades.",
+        cyber_t1: "Auditoría completa de seguridad",
+        cyber_t2: "Blindaje total de activos",
+        cyber_t3: "Medidas preventivas contra ataques",
         btn_cyber: "Blindar mi Negocio",
+
+        // Por que nos contratar
+        tag_why: "¿POR QUÉ TZORI?",
+        title_why: "Ingeniería que genera autoridad y ganancias",
+        why_1_title: "Infraestructura de Élite",
+        why_1_desc: "Redes Mesh y automatización blindada que eliminan caídas.",
+        why_1_ben: "Beneficio: Estabilidad total.",
+        why_2_title: "Sistemas Enfocados en SEO",
+        why_2_desc: "Herramientas de guerra optimizadas para Google.",
+        why_2_ben: "Beneficio: Ventas orgánicas.",
+        why_3_title: "Decisiones Basadas en Datos (BI)",
+        why_3_desc: "Gestión de tráfico que escala su ROI con transparencia.",
+        why_3_ben: "Beneficio: Escala previsible.",
+        why_4_title: "Ciberseguridad Nativa",
+        why_4_desc: "Seguridad bancaria en todos los proyectos digitales.",
+        why_4_ben: "Beneficio: Blindaje contra ataques.",
+
         footer_rights: "Todos los derechos reservados."
     }
 };
 
-// 3. FUNÇÃO DE TRADUÇÃO (Corrigida com innerHTML)
+// Função para aplicar a tradução
 function setLanguage(lang) {
-    localStorage.setItem('tzori_lang', lang);
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
+    document.querySelectorAll("[data-i18n]").forEach(element => {
+        const key = element.getAttribute("data-i18n");
         if (translations[lang][key]) {
-            el.innerHTML = translations[lang][key]; 
+            element.innerHTML = translations[lang][key];
         }
     });
-    document.querySelectorAll('.lang-switcher button').forEach(btn => {
-        btn.classList.remove('lang-active');
-        if(btn.innerText.toLowerCase() === lang) btn.classList.add('lang-active');
-    });
+    // Opcional: salvar preferência
+    localStorage.setItem("preferredLang", lang);
 }
+
+// Inicializar com idioma salvo ou padrão
+document.addEventListener("DOMContentLoaded", () => {
+    const savedLang = localStorage.getItem("preferredLang") || "pt";
+    setLanguage(savedLang);
+});
 
 // 4. O FUNDO LEGAL (PONTOS DINÂMICOS)
 const canvas = document.getElementById('circuitCanvas');

@@ -12,132 +12,193 @@
 
     <header>
         <nav class="container">
-            <div class="logo"><img src="imagens/logo.webp" alt="Logo" width="30" height="30"> <span>TZORI</span></div>
+            <div class="logo">
+                <img src="imagens/logo.webp" alt="Logo" width="30" height="30"> 
+                <span>TZORI</span>
+            </div>
             <ul class="navlinks">
                 <li><a href="#home" data-i18n="nav_home">Home</a></li>
-                <li><a href="#infra" data-i18n="nav_infra">Infraestrutura</a></li>
-                <li><a href="#digital" data-i18n="nav_digital">Sites</a></li>
-                <li><a href="#trafego" data-i18n="nav_trafego">Growth Marketing</a></li>
+                <li><a href="#infra" data-i18n="nav_infra">Smart Infra</a></li>
+                <li><a href="#digital" data-i18n="nav_digital">SEO Systems</a></li>
+                <li><a href="#trafego" data-i18n="nav_trafego">Business Growth</a></li>
                 <li><a href="#cyber" data-i18n="nav_cyber">Segurança</a></li>
                 <li class="lang-switcher">
                     <button onclick="setLanguage('pt')">PT</button>
                     <span>|</span>
                     <button onclick="setLanguage('es')">ES</button>
                 </li>
-                <li><a href="#contato" class="btn-cta-nav" data-i18n="nav_contact">Contato</a></li>
+                <li><a href="#contato" class="btn-cta-nav" data-i18n="btn_contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="container">
-        <section id="home" class="hero">
+    <main>
+        <section id="home" class="hero container">
             <h1 class="main-title">TZORI</h1>
-            <p class="hero-description" data-i18n="hero_bio"> <strong>Infraestrutura, sistemas e segurança digital sem margem para falhas.</strong>
-A <strong>TZORI</strong> projeta e implementa soluções tecnológicas completas para empresas que precisam de estabilidade, proteção e desempenho real.</p>
+            <p class="hero-description" data-i18n="hero_bio">
+                <strong>Infraestrutura, sistemas e segurança digital sem margem para falhas.</strong>
+                A <strong>TZORI</strong> projeta e implementa soluções tecnológicas completas para empresas que precisam de estabilidade, proteção e desempenho real.
+            </p>
         </section>
 
-        <section id="infra" class="nicho-section">
+        <section id="servicos-grid" class="container">
+            <div class="grid-header">
+                <span class="tag" data-i18n="tag_servicos">SOLUÇÕES</span>
+                <h2 data-i18n="title_servicos">Especialidades TZORI</h2>
+            </div>
+            <div class="services-wrapper">
+                <div class="service-box small">
+                    <div class="icon-wrapper small">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                    </div>
+                    <h3 data-i18n="nav_infra">Smart Infra</h3>
+                    <p data-i18n="desc_grid_infra">Automação e redes Mesh.</p>
+                </div>
+                <div class="service-box small">
+                    <div class="icon-wrapper small">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </div>
+                    <h3 data-i18n="nav_digital">SEO Systems</h3>
+                    <p data-i18n="desc_grid_digital">Sites para o topo do Google.</p>
+                </div>
+                <div class="service-box small">
+                    <div class="icon-wrapper small">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                    </div>
+                    <h3 data-i18n="nav_trafego">Business Growth</h3>
+                    <p data-i18n="desc_grid_trafego">BI e Gestão de faturamento.</p>
+                </div>
+                <div class="service-box small">
+                    <div class="icon-wrapper small">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3 data-i18n="nav_cyber">Cyber Security</h3>
+                    <p data-i18n="desc_grid_cyber">Blindagem e auditoria crítica.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="infra" class="nicho-section container">
             <div class="glass-card">
                 <div class="nicho-info">
                     <span class="tag" data-i18n="tag_infra">INFRAESTRUTURA & REDES</span>
                     <h2 data-i18n="title_infra">Infraestrutura Tecnológica</h2>
-                    <p><span data-i18n="infra_p">Projetamos redes corporativas robustas e sistemas de monitoramento que garantem operação contínua, segurança e controle total do ambiente.</span></p>
-                    <div class="item-check">✔ <span data-i18n="infra_t1"> Wi-Fi Mesh:Cobertura total sem pontos cegos.</span></div>
-                    <div class="item-check">✔ <span data-i18n="infra_t2"> Sistemas de CFTV com acesso remoto e alta definição </span>   </div>
-                   <div class="item-check">✔ <span data-i18n="infra_t3"> Redes estáveis, seguras e preparadas para expansão </span>   </div>
-                    <p><span data-i18n="infra_resultado"></span><strong>Infraestrutura tecnológica robusta, segura e preparada para o crescimento.</strong></p>
-                    <a href="https://wa.me/seunumerowhatsapp" class="btn-nicho" data-i18n="btn_infra">Diagnóstico de Infraestrutura</a>
+                    <p data-i18n="infra_p">Projetamos redes corporativas robustas e sistemas de monitoramento que garantem operação contínua.</p>
+                    <div class="item-check">✔ <span data-i18n="infra_t1">Wi-Fi Mesh: Cobertura total sem pontos cegos.</span></div>
+                    <div class="item-check">✔ <span data-i18n="infra_t2">Sistemas de CFTV com acesso remoto</span></div>
+                    <div class="item-check">✔ <span data-i18n="infra_t3">Redes estáveis e preparadas para expansão</span></div>
+                    <a href="https://wa.me/+351 961 177 188" class="btn-nicho" data-i18n="btn_infra">Diagnóstico de Infraestrutura</a>
                 </div>
                 <div class="image-container">
-                    <img src="imagens/camera.webp" class="featured-image" width="600" height="400" alt="Infraestrutura de Redes" loading="lazy">
+                    <img src="imagens/camera.webp" class="featured-image" alt="Infraestrutura">
                 </div>
             </div>
         </section>
 
-        <section id="digital" class="nicho-section">
+        <section id="digital" class="nicho-section container">
             <div class="glass-card invert">
                 <div class="nicho-info">
                     <span class="tag" data-i18n="tag_digital">SITES & APLICAÇÕES</span>
                     <h2 data-i18n="title_digital">Sistemas Digitais que Geram Resultado</h2>
-                    <p><span data-i18n="digital_p">Desenvolvemos sites e aplicações com foco em performance, usabilidade e conversão alinhados aos objetivos reais do seu negócio.</span></p>
-                    <div class="item-check">✔ <span data-i18n="site_t1"><strong>Performance:</strong> Estrutura otimizada para velocidade e desempenho</span></div>
-                    <div class="item-check">✔ <span data-i18n="site_t2"><strong>UX Design:</strong> Experiência do usuário pensada para conversão</span></div>
-                    <p><span data-i18n="resultado_p">Presença digital profissional que atrai, engaja e converte.</span></p>
-                    <a href="https://wa.me/seunumerowhatsapp" class="btn-nicho" data-i18n="btn_digital">Análise de Performance Grátis</a>
+                    <p data-i18n="digital_p">Desenvolvemos sites com foco em performance, usabilidade e conversão.</p>
+                    <div class="item-check">✔ <span data-i18n="site_t1">Performance otimizada para velocidade</span></div>
+                    <div class="item-check">✔ <span data-i18n="site_t2">UX Design focado em conversão</span></div>
+                    <a href="https://wa.me/+351 961 177 188" class="btn-nicho" data-i18n="btn_digital">Análise de Performance Grátis</a>
                 </div>
                 <div class="image-container">
-                    <img src="imagens/site.webp" class="featured-image" width="600" height="400" alt="Desenvolvimento Web" loading="lazy">
-                    <div class="image-container">
+                    <img src="imagens/site.webp" class="featured-image" alt="Desenvolvimento Web">
                 </div>
             </div>
         </section>
 
-        <section id="trafego" class="section-metrics">
-    <div class="container">
-        <div class="metrics-header">
-            <span class="tag" data-i18n="tag_trafego">Growth Marketing</span>
-            <h2 data-i18n="title_trafego">Performance que escala</h2>
-        </div>
-        
-        <div class="bento-grid">
-            <div class="bento-item bento-main">
-                <p data-i18n="traf_t1">Dominamos os algoritmos para converter cliques em faturamento previsível através de estratégias de SEO e Paid Media.</p>
-                <a href="https://wa.me/seunumerowhatsapp" class="btn-nicho" data-i18n="btn_trafego">Escalar meu Negócio</a>
+        <section id="trafego" class="section-metrics container">
+            <div class="metrics-header">
+                <span class="tag" data-i18n="tag_trafego">Growth Marketing</span>
+                <h2 data-i18n="title_trafego">Performance que escala</h2>
             </div>
-
-            <div class="bento-item bento-stat">
-                <div class="stat-value">+315%</div>
-                <div class="stat-label" data-i18n="traf_stat_roas">Média de ROAS</div>
-            </div>
-
-            <div class="bento-item bento-stat">
-                <div class="stat-value">2.4s</div>
-                <div class="stat-label"data-i18n="traf_stat_time">Tempo de Resposta</div>
-            </div>
-
-            <div class="bento-item bento-graph">
-                <div class="graph-bars">
-                    <div class="bar" style="height: 40%"></div>
-                    <div class="bar" style="height: 60%"></div>
-                    <div class="bar" style="height: 45%"></div>
-                    <div class="bar" style="height: 90%"></div>
+            <div class="bento-grid">
+                <div class="bento-item bento-main">
+                    <p data-i18n="traf_t1">Dominamos algoritmos para converter cliques em faturamento previsível.</p>
+                    <a href="https://wa.me/+351 961 177 188" class="btn-nicho" data-i18n="btn_trafego">Escalar meu Negócio</a>
                 </div>
-                <p data-i18n="traf_graph_label" >Crescimento Mensal</p>
+                <div class="bento-item bento-stat">
+                    <div class="stat-value">+315%</div>
+                    <div class="stat-label" data-i18n="traf_stat_roas">Média de ROAS</div>
+                </div>
+                <div class="bento-item bento-stat">
+                    <div class="stat-value">2.4s</div>
+                    <div class="stat-label" data-i18n="traf_stat_time">Tempo de Resposta</div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
-        <section id="cyber" class="nicho-section">
-            <div class="glass-card invert">
+        <section id="cyber" class="nicho-section container">
+            <div class="glass-card">
                 <div class="nicho-info">
                     <span class="tag" data-i18n="tag_cyber">Security</span>
                     <h2 data-i18n="title_cyber">Cibersegurança</h2>
-                    <div class="item-check">✔ <span data-i18n="cyber_t1"><strong>Auditoria:</strong> Auditoria completa de segurança.</span></div>
-                    <div class="item-check">✔ <span data-i18n="cyber_t2"><strong>Blindagem:</strong> Segurança total de ativos.</span></div>
-                    <div class="item-check">✔ <span data-i18n="cyber_t3"><strong>Implementação:</strong> Medidas preventivas e corretivas para garantir a segurança contínua do ambiente digital.</span></div>
-                    <p><span data-i18n="cyber_resultado" >Ambiente digital seguro, protegido contra ameaças e vulnerabilidades.</span></p>
-                    <a href="https://wa.me/seunumerowhatsapp" class="btn-nicho" data-i18n="btn_cyber">Blindar meu Negócio</a>
+                    <div class="item-check">✔ <span data-i18n="cyber_t1">Auditoria completa de segurança</span></div>
+                    <div class="item-check">✔ <span data-i18n="cyber_t2">Blindagem total de ativos</span></div>
+                    <div class="item-check">✔ <span data-i18n="cyber_t3">Medidas preventivas contra ataques</span></div>
+                    <a href="https://wa.me/+351 961 177 188" class="btn-nicho" data-i18n="btn_cyber">Blindar meu Negócio</a>
                 </div>
                 <div class="image-container">
-                    <img src="imagens/segurança.webp" class="featured-image" width="600" height="400" alt="Segurança Digital" loading="lazy">
+                    <img src="imagens/segurança.webp" class="featured-image" alt="Segurança Digital">
+                </div>
+            </div>
+        </section>
+
+        <section id="por-que-nos" class="container">
+            <div class="why-header">
+                <span class="tag" data-i18n="tag_why">POR QUE A TZORI?</span>
+                <h2 data-i18n="title_why">Engenharia que gera autoridade e lucro</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-number">01</div>
+                    <div class="why-content">
+                        <h3 data-i18n="why_1_title">Infraestrutura de Elite</h3>
+                        <p data-i18n="why_1_desc">Redes Mesh e automação blindada que eliminam quedas.</p>
+                        <span class="benefit" data-i18n="why_1_ben">Benefício: Estabilidade total.</span>
+                    </div>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">02</div>
+                    <div class="why-content">
+                        <h3 data-i18n="why_2_title">Sistemas Focados em SEO</h3>
+                        <p data-i18n="why_2_desc">Ferramentas de guerra otimizadas para o Google.</p>
+                        <span class="benefit" data-i18n="why_2_ben">Benefício: Vendas orgânicas.</span>
+                    </div>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">03</div>
+                    <div class="why-content">
+                        <h3 data-i18n="why_3_title">Decisões Baseadas em Dados (BI)</h3>
+                        <p data-i18n="why_3_desc">Gestão de tráfego que escala seu ROI com transparência.</p>
+                        <span class="benefit" data-i18n="why_3_ben">Benefício: Escala previsível.</span>
+                    </div>
+                </div>
+                <div class="why-item">
+                    <div class="why-number">04</div>
+                    <div class="why-content">
+                        <h3 data-i18n="why_4_title">Cyber Security Nativa</h3>
+                        <p data-i18n="why_4_desc">Segurança bancária em todos os projetos digitais.</p>
+                        <span class="benefit" data-i18n="why_4_ben">Benefício: Blindagem contra ataques.</span>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <a href="https://wa.me/seunumerowhatsapp" class="whatsapp-float" target="_blank">
-        <div class="online-indicator"></div>
+    <a href="https://wa.me/+351 961 177 188" class="whatsapp-float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     </a>
 
-    <footer class="main-footer">    
-    <div class="footer-bottom">
-        <div class="container">
+    <footer>
+        <div class="footer-bottom container">
             <p>&copy; 2026 TZORI. <span data-i18n="footer_rights">Todos os direitos reservados.</span></p>
         </div>
-    </div>
-</footer>
+    </footer>
 
     <script src="script.js"></script>
 </body>
